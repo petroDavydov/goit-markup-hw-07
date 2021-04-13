@@ -1014,7 +1014,7 @@ img {
 
 .close-icon {
   position: absolute;
-  left: 32%;
+  left: 35%;
   right: 50%;
   transform: translateY(-50%);
   cursor: pointer;
@@ -1195,6 +1195,7 @@ img {
   border: 1px solid var(--modal-color);
   transition-property: border;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  ;
 }
 
 .user-comment:focus,
