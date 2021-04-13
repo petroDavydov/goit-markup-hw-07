@@ -1006,26 +1006,23 @@ img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: none;
-
-  transition-property: fill, color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  fill: var(--modal-color);
 }
 
 .close-icon {
   position: absolute;
+  left: 32%;
+  right: 50%;
+  transform: translateY(-50%);
   cursor: pointer;
-  width: 18px;
-  height: 18px;
+  width: 11px;
+  height: 11px;
 
   transition-property: fill;
-  transition-duration: 150ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1123,7 +1120,7 @@ img {
 }
 
 .modal-checkbox:checked + .checkbox-icon-span {
-  background-image: url("../images/icon-check.svg");
+  background-image: url("../images/icon-modal-check-square.svg");
   background-size: contain;
   background-origin: border-box;
 
