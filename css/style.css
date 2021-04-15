@@ -378,7 +378,7 @@ img {
 
 .merits-list > .merits-list__item,
 .business-direction > .business-direction__item,
-.team-list > .team-member,
+.team-list > .team-list__member,
 .clients-list > .clients-item,
 .portfolio-pointers > .portfolio-point {
   margin-left: var(--card-set-gap);
@@ -487,16 +487,16 @@ img {
 
 /*! reticle team*/
 
-.team-list > .team-member {
+.team-list > .team-list__member {
   flex-basis: calc(100% / 4 - var(--card-set-gap));
 }
 /*! reticle team end */
-.team-info {
+.team-list__info {
   padding-top: 30px;
   padding-bottom: 16px;
 }
 
-.team-name {
+.team-list__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -505,7 +505,7 @@ img {
   text-align: center;
 }
 
-.team-position {
+.team-list__position {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -513,7 +513,7 @@ img {
   color: var(--paragraph-color);
 }
 
-.team-member {
+.team-list__member {
   background-color: var(--team-member-bg);
   box-shadow: var(--card-shadow);
   border-radius: 0px 0px 4px 4px;
@@ -567,37 +567,37 @@ img {
 /* TODO team svg icon end */
 
 /* ==ROTATE==== */
-.team-rotate-container {
+.team-list__rotate-container {
   position: relative;
   background-color: rgba(191, 126, 33, 0.5);
 }
 
-.team-rotate-card {
+.team-list__rotate-card {
   transform-style: preserve-3d;
   transition: all 1s ease-in-out;
 }
 
-.team-rotate-card:hover,
-.team-rotate-card:focus {
+.team-list__rotate-card:hover,
+.team-list__rotate-card:focus {
   transform: rotateY(180deg);
 }
 
-.team-rotate-card .team-member-thumb {
+.team-list__rotate-card .team-list__thumb {
   backface-visibility: hidden;
 }
 
-.team-rotate-card .team-back {
+.team-list__rotate-card .team-list__back {
   transform: rotateY(180deg);
 }
 
-.team-back {
+.team-list__back {
   position: absolute;
   top: 20%;
   padding-right: 15px;
   padding-left: 15px;
 }
 
-.team-back-title {
+.team-list__back-title {
   font-family: "Roboto", sans-serif;
   font-style: italic;
   font-size: 14px;
@@ -605,7 +605,7 @@ img {
   text-align: center;
 }
 
-.team-back-title-span {
+.team-list__back-title-span {
   font-size: 12px;
   font-style: italic;
   font-weight: 300;
