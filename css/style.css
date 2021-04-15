@@ -1026,8 +1026,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-slogan__close:hover .close-icon,
-.modal-slogan__close:focus .close-icon {
+.modal-slogan__close:hover .modal-slogan__close-icon,
+.modal-slogan__close:focus .modal-slogan__close-icon {
   fill: var(--hover-color);
 }
 
