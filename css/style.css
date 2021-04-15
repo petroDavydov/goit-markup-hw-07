@@ -19,7 +19,7 @@
   --card-border-color: #eeeeee;
   --header-overlay: rgba(47, 48, 58, 0.4);
   --header-bg: #c4c4c4;
-  --icon-marits-color: #f5f4fa;
+  --icon-merits-color: #f5f4fa;
   --icon-heder-color: #757575;
   --team-member-bg: #ffffff;
   --icon-team-color: #afb1b8;
@@ -364,7 +364,7 @@ img {
 
 /*!retical common functions*/
 
-.marits-list,
+.merits__list,
 .business-direction,
 .team-list,
 .clients-list,
@@ -376,7 +376,7 @@ img {
   margin-top: calc(-1 * var(--card-set-gap));
 }
 
-.marits-list > .merits-item,
+.merits__list > .merits__item,
 .business-direction > .business-item,
 .team-list > .team-member,
 .clients-list > .clients-item,
@@ -386,15 +386,15 @@ img {
 }
 /*!retical common functions end*/
 
-/*! reticle marits*/
+/*! reticle merits*/
 
-.marits-list > .merits-item {
+.merits__list > .merits__item {
   flex-basis: calc(100% / 4 - var(--card-set-gap));
 }
 
-/*! reticle marits end */
+/*! reticle merits end */
 
-.marits-trait {
+.merits__trait {
   font-size: 14px;
   font-weight: bold;
   line-height: 1.15;
@@ -403,33 +403,33 @@ img {
   margin-bottom: 10px;
 }
 
-.marits-info {
+.merits__info {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--paragraph-color);
   max-width: 270px;
 }
 
-/*TODO icons-svg marits section*/
+/*TODO icons-svg merits section*/
 
-.marits-icon-thumb {
+.merits__icon-thumb {
   width: 270px;
   height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--icon-marits-color);
+  background-color: var(--icon-merits-color);
   margin-bottom: 30px;
   border-radius: 4px;
 }
 
-.marits-icon {
+.merits__icon {
   height: 70px;
 }
 
-/*TODO icons-svg marits section end*/
+/*TODO icons-svg merits section end*/
 
-/* marits section end */
+/* merits section end */
 
 /*?BUSINESS */
 
