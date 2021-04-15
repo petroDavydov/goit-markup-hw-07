@@ -377,7 +377,7 @@ img {
 }
 
 .merits__list > .merits__item,
-.business-direction > .business-item,
+.business-direction > .business-direction__item,
 .team-list > .team-member,
 .clients-list > .clients-item,
 .portfolio-pointers > .portfolio-point {
@@ -439,13 +439,13 @@ img {
 
 /*! reticle business*/
 
-.business-direction > .business-item {
+.business-direction > .business-direction__item {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
 }
 
 /*! reticle business end */
 
-.business-title,
+.business__title,
 .team-title {
   font-weight: bold;
   font-size: 36px;
@@ -455,14 +455,14 @@ img {
   text-align: center;
 }
 
-.business-thumb {
+.business-direction__thumb {
   position: relative;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.business-card-name {
+.business-direction__card-name {
   position: absolute;
   width: 100%;
   height: 25%;
@@ -473,7 +473,7 @@ img {
   justify-content: center;
 }
 
-.business-card-title {
+.business-direction__card-title {
   line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
