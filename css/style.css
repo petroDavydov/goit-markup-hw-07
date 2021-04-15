@@ -526,7 +526,7 @@ img {
 
 /* TODO team svg icon */
 
-.social-list {
+.social {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -534,17 +534,17 @@ img {
   padding-bottom: 30px;
 }
 
-.social-item {
+.social__item {
   width: 44px;
   height: 44px;
   background-color: transparent;
 }
 
-.social-item:not(:last-child) {
+.social__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-link {
+.social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -558,8 +558,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover,
-.social-link:focus {
+.social__link:hover,
+.social__link:focus {
   fill: var(--icon-team-fill-hover);
   background-color: var(--primary-color);
 }
@@ -818,13 +818,13 @@ img {
 
 /*?FOOTER */
 
-.wrap-footer-content {
+.wrap-footer {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
 
-.wrap-footer-item {
+.wrap-footer__item {
   display: block;
   margin-right: 30px;
   /* flex-basis: calc((50% - 45px) / 3); */
@@ -840,11 +840,11 @@ img {
   margin-top: 20px;
 }
 
-.footer-list-item {
+.footer-list__item {
   margin-top: 9px;
 }
 
-.wrap-footer-item:nth-child(3) {
+.wrap-footer__item:nth-child(3) {
   flex-basis: (50% - 15px);
   margin-right: 0;
 }
@@ -862,7 +862,7 @@ img {
   align-items: baseline;
 }
 
-.footer-form-input {
+.footer-form__input {
   width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.6);
@@ -874,7 +874,7 @@ img {
   margin-right: 12px;
 }
 
-.footer-form-submit {
+.footer-form__submit {
   display: flex;
   align-items: center;
   text-align: center;
@@ -893,13 +893,13 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-form-submit:hover,
-.footer-form-submit:focus {
+.footer-form__submit:hover,
+.footer-form__submit:focus {
   color: var(--light);
   background-color: var(--hover-color);
 }
 
-.social-icon-footer {
+.footer-form__social-icon {
   margin-left: 10px;
   fill: var(--light);
 }
@@ -912,12 +912,12 @@ img {
   padding: 0px;
 }
 
-.address {
+.footer-list__address {
   font-style: inherit;
   color: var(--btn-color);
 }
 
-.link-footer {
+.footer-list__footer-link{
   display: inline-block;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -930,14 +930,14 @@ img {
   color: #ffffff;
 }
 
-.link-footer:hover,
-.link-footer:focus {
+.footer-list__footer-link:hover,
+.footer-list__footer-link:focus {
   color: var(--primary-color);
 }
 
 /* ================ */
 
-.social-title {
+.retical-social-title {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
