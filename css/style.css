@@ -693,17 +693,17 @@ img {
 
 /*?PORTFOLIO */
 
-.portfolio-list-button {
+.filter-button {
   margin-bottom: 46px;
   display: flex;
   justify-content: center;
 }
 
-.portfolio-item-button:not(:last-child) {
+.filter-button__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.btn-portfolio {
+.filter-button__btn-portfolio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -721,8 +721,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-portfolio:hover,
-.btn-portfolio:focus {
+.filter-button__btn-portfolio:hover,
+.filter-button__btn-portfolio:focus {
   color: var(--btn-color);
   background-color: var(--primary-color);
   box-shadow: var(--btn-portfolio-shadow);
