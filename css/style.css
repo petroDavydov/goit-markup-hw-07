@@ -364,7 +364,7 @@ img {
 
 /*!retical common functions*/
 
-.merits__list,
+.merits-list,
 .business-direction,
 .team-list,
 .clients-list,
@@ -376,7 +376,7 @@ img {
   margin-top: calc(-1 * var(--card-set-gap));
 }
 
-.merits__list > .merits__item,
+.merits-list > .merits-list__item,
 .business-direction > .business-direction__item,
 .team-list > .team-member,
 .clients-list > .clients-item,
@@ -388,13 +388,13 @@ img {
 
 /*! reticle merits*/
 
-.merits__list > .merits__item {
+.merits-list > .merits-list__item {
   flex-basis: calc(100% / 4 - var(--card-set-gap));
 }
 
 /*! reticle merits end */
 
-.merits__trait {
+.merits-list__trait {
   font-size: 14px;
   font-weight: bold;
   line-height: 1.15;
@@ -403,7 +403,7 @@ img {
   margin-bottom: 10px;
 }
 
-.merits__info {
+.merits-list__info {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--paragraph-color);
@@ -412,7 +412,7 @@ img {
 
 /*TODO icons-svg merits section*/
 
-.merits__icon-thumb {
+.merits-list__icon-thumb {
   width: 270px;
   height: 120px;
   display: flex;
@@ -423,7 +423,7 @@ img {
   border-radius: 4px;
 }
 
-.merits__icon {
+.merits-list__icon {
   height: 70px;
 }
 
