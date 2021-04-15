@@ -653,20 +653,20 @@
 
     <div data-modal class="backdrop-slogan is-hidden">
       <div class="modal-slogan">
-        <button data-modal-close type="button" class="modal-slogan-close">
-          <svg class="close-icon">
+        <button data-modal-close type="button" class="modal-slogan__close">
+          <svg class="modal-slogan__close-icon">
             <use href="./images/sprite.svg#icon-close-icon"></use>
           </svg>
         </button>
 
         <form class="modal-form">
-          <h3 class="modal-title">
+          <h3 class="modal-form__title">
             Оставьте свои данные, мы вам перезвоним
           </h3>
 
-          <div class="modal-unit">
-            <div class="modal-unit-group">
-              <label for="user-name" class="modal-lable">
+          <div class="modal-form__unit">
+            <div class="modal-form__unit-group">
+              <label for="user-name" class="modal-form__unit-lable">
                 Имя
               </label>
 
@@ -674,52 +674,52 @@
                 type="text"
                 name="user-name"
                 id="user-name"
-                class="modal-unit-input"
+                class="modal-form__unit-input"
                 placeholder="John Dear"
               />
-              <svg class="modal-unit-icon" width="11" height="11">
+              <svg class="modal-form__unit-icon" width="11" height="11">
                 <use href="./images/sprite.svg#icon-modal-name"></use>
               </svg>
             </div>
           </div>
 
-          <div class="modal-unit">
-            <div class="modal-unit-group">
-              <label for="user-tel" class="modal-lable">
+          <div class="modal-form__unit">
+            <div class="modal-form__unit-group">
+              <label for="user-tel" class="modal-form__unit-lable">
                 Телефон
               </label>
               <input
                 type="tel"
                 name="user-tel"
                 id="user-tel"
-                class="modal-unit-input"
+                class="modal-form__unit-input"
                 placeholder="+38-050-123-12-12"
               />
-              <svg class="modal-unit-icon" width="18" height="18">
+              <svg class="modal-form__unit-icon" width="18" height="18">
                 <use href="./images/sprite.svg#icon-modal-phone"></use>
               </svg>
             </div>
           </div>
 
-          <div class="modal-unit">
-            <div class="modal-unit-group">
-              <label for="user-mail" class="modal-lable">
+          <div class="modal-form__unit">
+            <div class="modal-form__unit-group">
+              <label for="user-mail" class="modal-form__unit-lable">
                 Почта
               </label>
               <input
                 type="email"
                 name="user-mail"
                 id="user-mail"
-                class="modal-unit-input"
+                class="modal-form__unit-input"
                 placeholder="youradress@gmail.com "
               />
-              <svg class="modal-unit-icon" width="18" height="18">
+              <svg class="modal-form__unit-icon" width="18" height="18">
                 <use href="./images/sprite.svg#icon-modal-email"></use>
               </svg>
             </div>
           </div>
 
-          <div class="modal-unit">
+          <div class="modal-form__unit">
             <label for="user-comment" class="modal-aria-lable">
               Комментарий
             </label>
@@ -743,7 +743,7 @@
             <a href="" class="modal-link" id="modal-link"> Условия договора</a>
           </label>
 
-          <button type="submit" id="form-submit" class="btn btn-modal">
+          <button type="submit" id="form-submit" class="btn modal-form__btn-modal">
             Отправить
           </button>
         </form>

@@ -999,7 +999,7 @@ img {
 }
 
 /* close icon */
-.modal-slogan-close {
+.modal-slogan__close {
   position: absolute;
   right: 8px;
   top: 8px;
@@ -1012,9 +1012,9 @@ img {
   fill: var(--modal-color);
 }
 
-.close-icon {
+.modal-slogan__close-icon {
   position: absolute;
-  left: 35%;
+  left: 31%;
   right: 50%;
   transform: translateY(-50%);
   cursor: pointer;
@@ -1026,8 +1026,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-slogan-close:hover .close-icon,
-.modal-slogan-close:focus .close-icon {
+.modal-slogan__close:hover .close-icon,
+.modal-slogan__close:focus .close-icon {
   fill: var(--hover-color);
 }
 
@@ -1035,7 +1035,7 @@ img {
 
 /* modal-form */
 
-.modal-title {
+.modal-form__title {
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
@@ -1044,17 +1044,17 @@ img {
   color: var(--main-color);
 }
 
-.modal-unit {
+.modal-form__unit {
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
 }
 
-.modal-unit-group {
+.modal-form__unit-group {
   position: relative;
 }
 
-.modal-unit-input {
+.modal-form__unit-input {
   width: 100%;
   height: 40px;
   padding-left: 42px;
@@ -1072,8 +1072,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-unit-input:focus,
-.modal-unit-input:hover {
+.modal-form__unit-input:focus,
+.modal-form__unit-input:hover {
   border: 1px solid var(--hover-color);
 }
 
@@ -1146,7 +1146,7 @@ img {
   text-decoration-line: underline;
 }
 
-.btn-modal {
+.modal-form__btn-modal {
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -1169,13 +1169,13 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-modal:hover,
-.btn-modal:focus {
+.modal-form__btn-modal:hover,
+.modal-form__btn-modal:focus {
   color: var(--light);
   background-color: var(--hover-color);
 }
 
-.modal-lable {
+.modal-form__lable {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -1211,7 +1211,7 @@ img {
 
 /* icon in modal */
 
-.modal-unit-icon {
+.modal-form__unit-icon {
   position: absolute;
   left: 12px;
   top: 65%;
@@ -1224,7 +1224,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-unit-input:focus + .modal-unit-icon {
+.modal-form__unit-input:focus + .modal-form__unit-icon {
   fill: var(--primary-color);
 }
 
