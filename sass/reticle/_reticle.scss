@@ -1,0 +1,53 @@
+/*!retical common functions*/
+
+.merits-list,
+.business-direction,
+.team-list,
+.clients-list,
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: calc(-1 * #{$card-set-gap});
+  margin-top: calc(-1 * #{$card-set-gap});
+}
+
+.merits-list > .merits-list__item,
+.business-direction > .business-direction__item,
+.team-list > .team-list__member,
+.clients-list > .clients-list__item,
+.portfolio-list > .portfolio-list__point {
+  margin-left: $card-set-gap;
+  margin-top: $card-set-gap;
+}
+/*!retical common functions end*/
+
+/*! reticle merits*/
+
+.merits-list > .merits-list__item {
+  flex-basis: calc(100% / 4 - #{$card-set-gap});
+}
+
+/*! reticle business*/
+
+.business-direction > .business-direction__item {
+  flex-basis: calc(100% / 3 - #{$card-set-gap});
+}
+
+/*! reticle team*/
+
+.team-list > .team-list__member {
+  flex-basis: calc(100% / 4 - #{$card-set-gap});
+}
+
+/*! clients retical*/
+
+.clients-list > .clients-list__item {
+  flex-basis: calc(100% / 6 - #{$card-set-gap});
+}
+
+/*! reticle portfolio*/
+
+.portfolio-list > .portfolio-list__point {
+  flex-basis: calc(100% / 3 - #{$card-set-gap});
+}
