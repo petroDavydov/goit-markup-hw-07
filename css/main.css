@@ -376,8 +376,7 @@ img {
   color: var(--primary-color);
 }
 
-.link:hover,
-.link:focus {
+.link:hover, .link:focus {
   color: #2196f3;
   background-color: #fff;
 }
@@ -510,7 +509,6 @@ img {
   color: #2196f3;
 }
 
-/* TODO sprite for connect */
 .connect__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -554,7 +552,6 @@ img {
   margin-bottom: 0;
 }
 
-/* TODO sprite for connect end*/
 .connect {
   display: -webkit-box;
   display: -ms-flexbox;

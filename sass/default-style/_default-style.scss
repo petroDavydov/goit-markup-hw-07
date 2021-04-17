@@ -97,7 +97,6 @@ img {
   font-family: Roboto;
   font-style: normal;
   cursor: pointer;
-
   &:hover,
   &:focus {
     background-color: $btn-color;
@@ -105,10 +104,12 @@ img {
   }
 }
 
-.link:hover,
-.link:focus {
-  color: $primary-color;
-  background-color: $btn-color;
+.link {
+  &:hover,
+  &:focus {
+    color: $primary-color;
+    background-color: $btn-color;
+  }
 }
 
 .section {
