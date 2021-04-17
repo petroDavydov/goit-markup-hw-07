@@ -94,7 +94,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -178,9 +178,9 @@ select {
 Correct the inability to style clickable types in iOS and Safari.
 */
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
@@ -233,7 +233,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
 */
-[type='search'] {
+[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -436,6 +436,12 @@ img {
 .clients-list > .clients-list__item {
   -ms-flex-preferred-size: calc(100% / 6 - 30px);
       flex-basis: calc(100% / 6 - 30px);
+}
+
+/*! reticle portfolio*/
+.portfolio-list > .portfolio-list__point {
+  -ms-flex-preferred-size: calc(100% / 3 - 30px);
+      flex-basis: calc(100% / 3 - 30px);
 }
 
 /*?HEADER */
@@ -698,7 +704,6 @@ img {
   padding-top: 0;
 }
 
-/*! reticle business end */
 .business__title,
 .team-title {
   font-weight: bold;
@@ -748,7 +753,6 @@ img {
 
 /* business section end */
 /*? TEAM */
-/*! reticle team end */
 .team-list__info {
   padding-top: 30px;
   padding-bottom: 16px;
@@ -1009,12 +1013,6 @@ img {
   color: #2196f3;
 }
 
-/*! reticle portfolio*/
-.portfolio-list > .portfolio-list__point {
-  -ms-flex-preferred-size: calc(100% / 3 - 30px);
-      flex-basis: calc(100% / 3 - 30px);
-}
-
 .portfolio-list__point {
   background-color: #fff;
 }
@@ -1244,6 +1242,7 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .modal-checkbox {
