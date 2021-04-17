@@ -97,13 +97,14 @@ img {
   font-family: Roboto;
   font-style: normal;
   cursor: pointer;
+
+  &:hover,
+  &:focus{
+	background-color: $btn-color;
+	color: var(--primary-color);
+  }
 }
 
-.btn:hover,
-.btn:focus {
-  background-color: $btn-color;
-  color: var(--primary-color);
-}
 
 .link:hover,
 .link:focus {
