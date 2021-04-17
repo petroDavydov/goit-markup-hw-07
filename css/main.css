@@ -94,7 +94,8 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
+ monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -661,8 +662,6 @@ img {
 
 /*TODO icons-svg merits section*/
 .merits-list__icon-thumb {
-  width: 270px;
-  height: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -672,6 +671,8 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 270px;
+  height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
   border-radius: 4px;
@@ -719,12 +720,12 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .business-direction__card-title {
@@ -736,7 +737,10 @@ img {
 }
 
 /* business section end */
-/*? TEAM */
+.team {
+  background-color: #f5f4fa;
+}
+
 .team-list__info {
   padding-top: 30px;
   padding-bottom: 16px;
@@ -767,11 +771,7 @@ img {
   overflow: hidden;
 }
 
-.team {
-  background-color: #f5f4fa;
-}
-
-/* TODO team svg icon */
+/* team svg icon */
 .social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -796,7 +796,7 @@ img {
   margin-right: 10px;
 }
 
-.social__link {
+.visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -874,7 +874,6 @@ img {
 }
 
 /* ==ROTATE end==== */
-/* team section end*/
 /*? Clients section */
 .clients-title {
   font-weight: 700;
@@ -957,6 +956,9 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .filter-button__item:not(:last-child) {

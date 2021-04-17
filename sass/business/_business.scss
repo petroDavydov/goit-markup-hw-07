@@ -16,9 +16,7 @@
 
 .business-direction__thumb {
   position: relative;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
+  @include center($jc:space-around, $ai:flex-end);
 }
 
 .business-direction__card-name {
@@ -27,9 +25,7 @@
   height: 25%;
   background-color: $busuness-card-name-bg;
   opacity: 0.8;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include center();
 }
 
 .business-direction__card-title {

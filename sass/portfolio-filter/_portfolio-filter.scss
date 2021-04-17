@@ -1,7 +1,7 @@
 .filter-button {
   margin-bottom: 46px;
-  display: flex;
-  justify-content: center;
+  @include center();
+
 }
 
 .filter-button__item:not(:last-child) {

@@ -14,9 +14,8 @@
 }
 
 .clients-list__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include center();
+
   height: 100%;
   border: 1px solid $clients-color-icon;
   border-radius: 4px;

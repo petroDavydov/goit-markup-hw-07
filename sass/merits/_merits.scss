@@ -19,11 +19,9 @@
 /*TODO icons-svg merits section*/
 
 .merits-list__icon-thumb {
+	@include center();
   width: 270px;
-  height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 120px; 
   background-color: $icon-merits-color;
   margin-bottom: 30px;
   border-radius: 4px;

@@ -99,12 +99,11 @@ img {
   cursor: pointer;
 
   &:hover,
-  &:focus{
-	background-color: $btn-color;
-	color: var(--primary-color);
+  &:focus {
+    background-color: $btn-color;
+    color: var(--primary-color);
   }
 }
-
 
 .link:hover,
 .link:focus {
@@ -118,3 +117,21 @@ img {
 }
 
 /*and default style */
+
+// mixins
+
+@mixin logo-value($color) {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: $color;
+}
+
+@mixin center($d:flex,$jc:center,$ai:center) {
+  display: $d;
+  justify-content: $jc;
+  align-items: $ai;
+}
