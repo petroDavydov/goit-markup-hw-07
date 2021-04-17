@@ -119,6 +119,11 @@ img {
 
 // end defaults style
 
+
+
+
+
+
 // mixins
 
 @mixin logo-value($color) {
@@ -157,3 +162,17 @@ img {
 @mixin count($num) {
   flex-basis: calc(100% / #{$num} - #{$card-set-gap});
 }
+//
+
+// $exp: "instagram","twitter","facebook", "linkedin";
+
+// @mixin generateIcon ($iconList){
+// 	@each $iconName in iconList {
+// .icon-#{$iconName} {
+// 	src: "../images/sprite/#{$iconList}.svg"
+// }
+
+// 	}
+// }
+
+// @include generateIcon($exp)
