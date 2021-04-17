@@ -1353,10 +1353,14 @@ img {
 
 /* textaria mark up */
 /* icon in modal */
+.modal-form__unit-span {
+  position: relative;
+}
+
 .modal-form__unit-icon {
   position: absolute;
   left: 12px;
-  top: 65%;
+  top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   display: block;
