@@ -84,12 +84,6 @@
   }
 }
 
-//   .connect__link:hover,
-//   .connect__link:focus {
-// 	fill: $primary-color;
-// 	color: $primary-color;
-//   }
-
 .envelope-icon {
   width: 16px;
   height: 12px;
@@ -118,13 +112,17 @@
 
 /* LOGO */
 
-.logo {
+@mixin logo-value() {
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+
+.logo {
+  @include logo-value();
   &:hover,
   &:focus {
     color: inherit;
@@ -134,22 +132,22 @@
 .logo-web {
   color: $primary-color;
 }
-//   see to footer
+// //   see to footer
 
-.logoF {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color: $btn-color;
+// .logoF {
+//   font-family: "Raleway", sans-serif;
+//   font-style: normal;
+//   font-weight: bold;
+//   font-size: 26px;
+//   line-height: 1.2;
+//   letter-spacing: 0.03em;
+//   color: $btn-color;
 
-  &:hover,
-  &:focus {
-    color: $btn-color;
-  }
-}
+//   &:hover,
+//   &:focus {
+//     color: $btn-color;
+//   }
+// }
 
 // see to footer
 

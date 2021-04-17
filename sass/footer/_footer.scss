@@ -91,10 +91,19 @@
 
 /* ==================== */
 
+// .logoF {
+//   display: block;
+//   margin: 0px;
+//   padding: 0px;
+// }
+
 .logoF {
-  display: block;
-  margin: 0px;
-  padding: 0px;
+  @include logo-value();
+  color: $btn-color;
+  &:hover,
+  &:focus {
+    color: $btn-color;
+  }
 }
 
 .footer-list__address {
@@ -119,11 +128,6 @@
   font-size: 14px;
   color: $light;
 }
-
-// .footer-list__footer-link:hover,
-// .footer-list__footer-link:focus {
-//   color: var(--primary-color);
-// }
 
 /* ================ */
 

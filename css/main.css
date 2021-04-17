@@ -371,8 +371,7 @@ img {
   cursor: pointer;
 }
 
-.btn:hover,
-.btn:focus {
+.btn:hover, .btn:focus {
   background-color: #fff;
   color: var(--primary-color);
 }
@@ -573,7 +572,7 @@ img {
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -585,20 +584,6 @@ img {
 
 .logo-web {
   color: #2196f3;
-}
-
-.logoF {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color: #fff;
-}
-
-.logoF:hover, .logoF:focus {
-  color: #fff;
 }
 
 /*?HEADER END*/
@@ -1495,9 +1480,17 @@ img {
 
 /* ==================== */
 .logoF {
-  display: block;
-  margin: 0px;
-  padding: 0px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.logoF:hover, .logoF:focus {
+  color: #fff;
 }
 
 .footer-list__address {
