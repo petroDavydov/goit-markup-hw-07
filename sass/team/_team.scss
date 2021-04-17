@@ -31,10 +31,10 @@
   overflow: hidden;
 }
 
-/* team svg icon */
+// 
 
 .social {
-	@include center();
+  @include center();
   list-style: none;
   padding-bottom: 30px;
 }
@@ -49,7 +49,7 @@
 }
 
 .social__link {
-	@include center();
+  @include center();
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -66,9 +66,9 @@
   }
 }
 
-/* TODO team svg icon end */
+// team svg icon end
 
-/* ==ROTATE==== */
+// rotate
 .team-list__rotate-container {
   position: relative;
   background-color: $rotate-container-color;
@@ -112,4 +112,4 @@
   font-style: italic;
   font-weight: 300;
 }
-/* ==ROTATE end==== */
+// rotate end

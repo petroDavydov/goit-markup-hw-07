@@ -94,8 +94,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
- monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -388,8 +387,6 @@ img {
   padding-bottom: 94px;
 }
 
-/*and default style */
-/*!retical common functions*/
 .merits-list,
 .business-direction,
 .team-list,
@@ -413,6 +410,7 @@ img {
   margin-top: 30px;
 }
 
+/*!retical common functions*/
 /*!retical common functions end*/
 /*! reticle merits*/
 .merits-list > .merits-list__item {
@@ -587,7 +585,6 @@ img {
   color: #2196f3;
 }
 
-/*?SLOGAN */
 .slogan {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -642,7 +639,6 @@ img {
   color: #fff;
 }
 
-/* slogan section end */
 /*?MERITS */
 .merits-list__trait {
   font-size: 14px;
@@ -684,7 +680,6 @@ img {
 
 /*TODO icons-svg merits section end*/
 /* merits section end */
-/*?BUSINESS */
 .business {
   padding-top: 0;
 }
@@ -736,7 +731,6 @@ img {
   color: #fff;
 }
 
-/* business section end */
 .team {
   background-color: #f5f4fa;
 }
@@ -771,7 +765,6 @@ img {
   overflow: hidden;
 }
 
-/* team svg icon */
 .social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -796,7 +789,7 @@ img {
   margin-right: 10px;
 }
 
-.visually-hidden {
+.social__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -823,8 +816,6 @@ img {
   background-color: #2196f3;
 }
 
-/* TODO team svg icon end */
-/* ==ROTATE==== */
 .team-list__rotate-container {
   position: relative;
   background-color: rgba(191, 126, 33, 0.5);
@@ -873,8 +864,6 @@ img {
   font-weight: 300;
 }
 
-/* ==ROTATE end==== */
-/*? Clients section */
 .clients-title {
   font-weight: 700;
   font-size: 36px;
@@ -915,7 +904,6 @@ img {
   fill: #2196f3;
 }
 
-/* ============== */
 .yaco-icon {
   width: 44.27px;
   height: 49.23px;
@@ -946,8 +934,6 @@ img {
   height: 45.44px;
 }
 
-/* ================= */
-/*? Clients section end */
 .filter-button {
   margin-bottom: 46px;
   display: -webkit-box;

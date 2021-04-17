@@ -116,7 +116,7 @@ img {
   padding-bottom: 94px;
 }
 
-/*and default style */
+// end defaults style
 
 // mixins
 
@@ -130,8 +130,29 @@ img {
   color: $color;
 }
 
-@mixin center($d:flex,$jc:center,$ai:center) {
+@mixin center($d: flex, $jc: center, $ai: center) {
   display: $d;
   justify-content: $jc;
   align-items: $ai;
+}
+
+// paceholders
+
+// placeholder & mixin for reticle
+
+%reticle {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: calc(-1 * #{$card-set-gap});
+  margin-top: calc(-1 * #{$card-set-gap});
+}
+
+%reticle-mar-t-l {
+  margin-left: $card-set-gap;
+  margin-top: $card-set-gap;
+}
+
+@mixin count($num) {
+  flex-basis: calc(100% / #{$num} - #{$card-set-gap});
 }
