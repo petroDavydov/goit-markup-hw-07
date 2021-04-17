@@ -443,7 +443,6 @@ img {
       flex-basis: calc(100% / 3 - 30px);
 }
 
-/*?HEADER */
 .header {
   border-bottom: 1px solid #eeeeee;
 }
@@ -586,7 +585,6 @@ img {
   color: #2196f3;
 }
 
-/*?HEADER END*/
 /*?SLOGAN */
 .slogan {
   padding-top: 200px;
@@ -1388,12 +1386,6 @@ img {
           justify-content: space-between;
 }
 
-.wrap-footer__item {
-  display: block;
-  margin-right: 30px;
-  /* flex-basis: calc((50% - 45px) / 3); */
-}
-
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1406,12 +1398,6 @@ img {
 
 .footer-list__item {
   margin-top: 9px;
-}
-
-.footer-list__item:nth-child(3) {
-  -ms-flex-preferred-size: calc(50% - 15px);
-      flex-basis: calc(50% - 15px);
-  margin-right: 0;
 }
 
 .footer-form-title {
@@ -1486,6 +1472,9 @@ img {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  display: block;
+  margin: 0px;
+  padding: 0px;
   color: #fff;
 }
 
