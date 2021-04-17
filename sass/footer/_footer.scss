@@ -92,11 +92,7 @@
 /* ==================== */
 
 .logoF {
-  @include logo-value();
-  display: block;
-  margin: 0px;
-  padding: 0px;
-  color: $btn-color;
+  @include logo-value($btn-color);
   &:hover,
   &:focus {
     color: $btn-color;

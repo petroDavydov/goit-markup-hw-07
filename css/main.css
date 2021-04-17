@@ -575,6 +575,7 @@ img {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  color: inherit;
 }
 
 .logo:hover, .logo:focus {
@@ -1476,9 +1477,6 @@ img {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  display: block;
-  margin: 0px;
-  padding: 0px;
   color: #fff;
 }
 
