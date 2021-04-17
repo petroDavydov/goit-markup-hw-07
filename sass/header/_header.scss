@@ -102,11 +102,15 @@
   margin-left: auto;
 }
 
-.connect__item + .connect__item {
-  margin-left: 50px;
+
+
+.connect__item{
+	& + .connect__item{
+		margin-left: 50px;
+	}
 }
 
-/* LOGO */
+// LOGO
 
 
 
