@@ -340,10 +340,6 @@ a {
   overflow: hidden;
 }
 
-.current {
-  color: #2196f3;
-}
-
 p {
   margin: 0;
   padding: 0;
@@ -506,6 +502,10 @@ img {
 }
 
 .menu__link:hover, .menu__link:focus {
+  color: #2196f3;
+}
+
+.menu__link--current {
   color: #2196f3;
 }
 

@@ -57,12 +57,15 @@
   &:focus {
     color: $primary-color;
   }
+  &--current {
+    color: $primary-color;
+  }
 }
 
 // sprite for connect
 
 .connect__link {
-	@include center();
+  @include center();
   width: 100%;
   height: 100%;
   fill: $icon-heder-color;
@@ -102,17 +105,13 @@
   margin-left: auto;
 }
 
-
-
-.connect__item{
-	& + .connect__item{
-		margin-left: 50px;
-	}
+.connect__item {
+  & + .connect__item {
+    margin-left: 50px;
+  }
 }
 
 // LOGO
-
-
 
 .logo {
   @include logo-value(inherit);
